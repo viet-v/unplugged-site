@@ -137,7 +137,13 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
 
+figure {
+  margin: 0;
+}
 
 /* ------------- Base Header - Footer Styles ----------------*/
 header, footer {
@@ -230,6 +236,9 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: url('../img/hero.jpg') center;
+  background-size: cover;
+  min-height: 500px;
 } 
 
 .hero-area h1 {
@@ -280,6 +289,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features.png') center;
+  background-size: cover;
 }
 
 .features h2 {
@@ -516,7 +527,10 @@ input[type=button] {
   }
 
   /* Hero area */
-  
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
